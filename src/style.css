@@ -1,0 +1,91 @@
+body {
+  background: #00467F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  );
+}
+.container {
+  border: 6px double #9aa2aa;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding: 50px 50px;
+  background: #f7f7f7;
+  max-width: 600px;
+}
+form {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.search-box {
+  border: none;
+  box-shadow: rgba(37, 39, 89, 0.08) 3px 8px 8px 3px;
+  padding: 2px;
+}
+.btn-primary {
+  padding: 1px 11px;
+  position: relative;
+  bottom: 2px;
+}
+.btn-secondary {
+  padding: 1px 11px;
+  position: relative;
+  bottom: 2px;
+  width: 80px;
+  background: rgb(8, 167, 8);
+}
+.btn-secondary:hover {
+  background-color: green;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  top: 50px;
+  right: 140px;
+}
+.tempType {
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+}
+.fahrenheitLink,
+.celsiusLink {
+  text-decoration: none;
+  color: black;
+}
+.fahrenheitLink:hover,
+.celsiusLink:hover {
+  font-weight: bolder;
+  color: rgb(160, 199, 254) 74.6%;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 70px;
+  left: 140px;
+}
+.date {
+  font-size: 21px;
+}
+.row {
+  text-align: center;
+  font-weight: 500;
+}
+.col {
+  font-size: 20px;
+}
+.fa-sun {
+  color: #ffee3c;
+}
+.fa-cloud-sun {
+  color: #ffee3c;
+}
+.fa-cloud-sun-rain {
+  color: #ffee3c;
+}
